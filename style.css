@@ -2,7 +2,17 @@
     color: #F9FAF8;
 }
 
+button {
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+}
 
+.subtext {
+    font-size: 18px;
+}
 
 .logo{
     font-size: 24px;
@@ -19,7 +29,7 @@ li {
    
 }
 
-a {
+a, .left .subtext {
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -36,7 +46,7 @@ body {
 
 .subpage-one img {
     height: 300px;
-    width: 600px;
+    width: 500px;
     display: flex;
     flex-direction: row;
 }
@@ -51,11 +61,35 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px 150px;
+    padding: 20px 250px;
 }
 
 .subpage-one {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+}
+
+.left{
+    height: 300px;
+    width: 500px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subpage-one button {
+    margin-top: 10px;
+    border: none;
+}
+
+.subpage-one img {
+    padding-left: 70px;
 }
 
 .subpage-two {
