@@ -5,3 +5,18 @@ ul {
 a {
     text-decoration: none;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.subpage-one img {
+    height: 300px;
+    width: 600px;
+}
+
+.subpage-two img {
+    height: 200px;
+    width: 200px;
+}
