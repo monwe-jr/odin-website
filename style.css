@@ -1,4 +1,4 @@
-.logo, .title {
+.logo, .title, .footer{
     color: #F9FAF8;
 }
 
@@ -6,12 +6,15 @@
     background-color: #1F2937;  
 }
 
-button {
+button, .box {
     background-color: #3882f6;
+}
+
+button {
     padding: 5px 20px;
     border-radius: 12px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 ul {
@@ -136,15 +139,50 @@ body {
     color: #787b7e;
 }
 
-
 .subpage-three {
     background-color: #E5E7EB;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    width: 500px;
+}
+
+.ender {
+    width: 500px;
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .subpage-four {
     background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+margin: 90px 150px;
+height: 100px;
+width: 1500px;
+
+}
+
+.subpage-four button {
+   border-color: white;
 }
 
 .footer {
-     
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 30px 0 30px;
+     font-size: 20px;
 }
